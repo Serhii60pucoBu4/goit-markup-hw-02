@@ -1,20 +1,14 @@
 
 .colortext {
-    color: #2196F3;
+     color:  var(--blue-text);
 }
 .colorstudio {
-    color: black;
+   color: var(--black-text);
 }
 
 .header {
     background-color: rgba(255, 255, 255, 1);
 }
-.studio {
-     color: var(--blue-text);
-}
-    .next {
-        color: var(--black-text);
-    }
     .tel {
         color: var(--grey-text);
     }

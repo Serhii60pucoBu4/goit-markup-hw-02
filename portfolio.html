@@ -6,26 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styleportfolio.css">
+    <link rel="stylesheet" href="./css/variables.css">
 </head>
 
-<body>
+<body class="body">
     <header>
         <nav>
-            <a href="./index.html">Web studio</a>
+            <a href="./index.html"><span class="colortext">Web</span><span class="colorstudio">studio</a>
             <nav>
                 <ul>
                     <li>
-                        <a href="#">Студия</a>
+                        <a class="colorstudio" href="#">Студия</a>
                     </li>
                     <li>
-                        <a href="#">Портфолио</a>
+                        <a class="colortext" href="#">Портфолио</a>
                     </li>
                     <li>
-                        <a href="#">Контакты</a>
+                        <a class="colorstudio" href="#">Контакты</a>
                     </li>
                 </ul>
             </nav>
-            <ul>
+            <ul class="contacts">
                 <li>
                     <a href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
@@ -36,8 +39,8 @@
         </nav>
     </header>
     <main>
-        <ul>
-            <li><button>Все</button></li>
+        <ul class="way">
+            <li><button class="all">Все</button></li>
             <li><button>Веб-сайты</button></li>
             <li><button>Приложения</button></li>
             <li><button>Дизайн</button></li>
@@ -45,7 +48,7 @@
         </ul>
         <section>
             <!-- <h1>список проетов</h1> -->
-            <ul>
+            <ul class="images">
                 <li>
                     <figure>
                         <img src="./imgportfolio/img1.jpg" alt="ноутбук" width="370">
@@ -113,13 +116,13 @@
         </section>
 
     </main>
-    <footer>
+    <footer class="footer">
         <a href="#">
             <img src="./images/web1.png" alt="webstudiowebstudio">
         </a>
         <ul>
             <li>
-                <address>г. Киев, пр-т Леси Украинки, 26</address>
+                <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
             </li>
             <li>
                 <a href="mailto:info@devstudio.com">info@devstudio.com</a>

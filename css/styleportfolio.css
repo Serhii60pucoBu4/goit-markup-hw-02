@@ -1,0 +1,38 @@
+.body {
+    background-color: #E5E5E5;
+}
+.colortext {
+    color:  var(--blue-text);
+}
+.colorstudio {
+    color: var(--black-text);
+}
+.contacts a {
+      color: var(--grey-text);
+}
+.way {
+    background-color:rgba(245, 244, 250, 1);
+    color: var(--black-text);
+}
+.all {
+    background-color: rgba(33, 150, 243, 1);
+     color: var(--white-text);
+}
+.images {
+    background-color: rgba(255, 255, 255, 1);
+}
+.images h2 {
+    color: var(--black-text);
+}
+.images p {
+    color: var(--grey-text);
+}
+.footer {
+    background-color: rgba(47, 48, 58, 1);
+}
+.adress {
+     color: var(--white-text);
+}
+.footer a {
+    color: var(--grey-text-op60);
+}
