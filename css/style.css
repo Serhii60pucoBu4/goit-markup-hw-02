@@ -1,0 +1,64 @@
+
+.colortext {
+    color: #2196F3;
+}
+.colorstudio {
+    color: black;
+}
+
+.header {
+    background-color: rgba(255, 255, 255, 1);
+}
+.studio {
+     color: var(--blue-text);
+}
+    .next {
+        color: var(--black-text);
+    }
+    .tel {
+        color: var(--grey-text);
+    }
+    .main {
+        background-color: rgba(47, 48, 58, 1);
+    }
+        
+    .title {
+        color: var(--white-text);
+    }
+    .service {
+        background-color: rgba(33, 150, 243, 1);
+        color: var(--white-text);
+    }
+
+    .about {
+background-color: #E5E5E5;
+    }
+
+    .wwc p {
+        color: var(--grey-text);
+    }
+    .section {
+background-color: #E5E5E5;
+}
+
+.team {
+    background-color: rgba(245, 244, 250, 1);
+}
+.team li {
+    background-color: rgba(255, 255, 255, 1);
+}
+.team h2 {
+    color: var( --black-text);
+}
+.team p {
+    color: var( --grey-text);
+}
+.footer {
+    background-color: rgba(47, 48, 58, 1);
+}
+.adress {
+     color: var(--white-text);
+}
+.footer a {
+    color: var(--grey-text-op60);
+}

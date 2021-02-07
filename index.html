@@ -1,48 +1,54 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>webstudio</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/variables.css">
 </head>
+
 <body>
-    <header>
+    <header class="header">
         <nav>
-            <a href="mailto:webstudio@com.ua">web studio</a>
-            <nav>
-                 <ul>
-                      <li>
-                    <a href="#">Студия</a>
-                      </li>
-                       <li>
-                    <a href="#">Портфолио</a>
-                      </li>
-                     <li>
-                    <a href="#">Контакты</a>
-                     </li>
-                 </ul>
+            <a href="mailto:webstudio@com.ua"><span class="colortext">Web</span><span class="colorstudio">studio</a>
+            <nav class="pages">
+                <ul>
+                    <li>
+                        <a class="studio" href="#">Студия</a>
+                    </li>
+                    <li>
+                        <a class="next" href="./portfolio.html">Портфолио</a>
+                    </li>
+                    <li>
+                        <a class="next" href="#">Контакты</a>
+                    </li>
+                </ul>
             </nav>
             <ul>
                 <li>
-                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <a class="studio" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
                 <li>
-                    <a href="tel:+380961111111">+38 096 111 11 11</a>
+                    <a class="tel" href="tel:+380961111111">+38 096 111 11 11</a>
                 </li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
-            <h1>Эффективные решения для вашего бизнеса</h1>
-            <a href="#">Заказать услугу</a>
+        <section class="main">
+            <h1 class="title">Эффективные решения для вашего бизнеса</h1>
+            <button class="service">Заказать услугу</button>
         </section>
-        <section>
+        <section class="about">
             <!-- <h2>О нас</h2> -->
-            <ul>
+            <ul class="wwc">
                 <li>
-                   <h3> Внимание к деталям</h3>
-                   <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                    <h3> Внимание к деталям</h3>
+                    <p>Идейные соображения, а также начало повседневной работы по формированию позиции.
+                    </p>
                 </li>
                 <li>
                     <h3>Пунктуальность</h3>
@@ -58,7 +64,7 @@
                 </li>
             </ul>
         </section>
-        <section>
+        <section class="section">
             <h2>Чем мы занимаемся</h2>
             <ul>
                 <li>
@@ -72,7 +78,7 @@
                 </li>
             </ul>
         </section>
-        <section>
+        <section class="team">
             <h2>Наша команда</h2>
             <ul>
                 <li>
@@ -106,21 +112,22 @@
             </ul>
         </section>
     </main>
-    <footer>
-    <a href="#">
-        <img src="./images/web1.png" alt="webstudiowebstudio">
-    </a>
-    <ul>
-        <li>
-            <address>г. Киев, пр-т Леси Украинки, 26</address>
-        </li>
-        <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li>
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
-        </li>
-    </ul>
+    <footer class="footer">
+        <a href="#">
+            <img src="./images/web1.png" alt="webstudiowebstudio">
+        </a>
+        <ul>
+            <li>
+                <address class="adress">г. Киев, пр-т Леси Украинки, 26</address>
+            </li>
+            <li>
+                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li>
+                <a href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+        </ul>
     </footer>
 </body>
-</html> 
+
+</html>
